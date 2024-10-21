@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Top_Level_Package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Hardware_IO_Interfaces</Name>
+  <Identifier>6e26c190-3b37-4812-8adb-7e48c6248d4d</Identifier>
+  <Description>Gathers software elements allowing to manage input and output pin of an hardware device.</Description>
+  <Packages />
+  <Types>
+    <Fixed_Point_Type>
+      <Name>T_Pin_Voltage_5</Name>
+      <Identifier>cee64fb2-4c18-4727-aeba-94f2cb1de1cf</Identifier>
+      <Description>Allows to model a data representing a voltage with a resolution of 5/1024 (0.004887) volt. 
+(Typically used to represent a data from 0 to 5 V.)</Description>
+      <Base_Type_Ref>0d6a9487-2e1a-4d71-8dcb-52824fa8170d</Base_Type_Ref>
+      <Unit>V</Unit>
+      <Resolution>5/1024</Resolution>
+      <Offset>0</Offset>
+    </Fixed_Point_Type>
+    <Enumerated_Type>
+      <Name>E_IO_Level</Name>
+      <Identifier>f9c149ee-c3eb-4b3d-b2f0-e7b6f5cdcb26</Identifier>
+      <Description>Allows to model a data that represents the hardware level of a pin.</Description>
+      <Enumerals>
+        <Enumeral>
+          <Name>IO_LEVEL_HIGH</Name>
+          <Identifier>89e2abe0-7fec-4a48-919c-18372fe2ab47</Identifier>
+          <Description />
+        </Enumeral>
+        <Enumeral>
+          <Name>IO_LEVEL_LOW</Name>
+          <Identifier>fc51f6c4-d4d4-416b-95e6-e3397af371e5</Identifier>
+          <Description />
+        </Enumeral>
+      </Enumerals>
+    </Enumerated_Type>
+  </Types>
+  <Interfaces>
+    <Client_Server_Interface>
+      <Name>Discrete_Output</Name>
+      <Identifier>a330e264-839e-477e-840a-14fe8bf973d1</Identifier>
+      <Description>Gathers operations allowing to manage a digital hardware output.</Description>
+      <Operations>
+        <Client_Server_Operation>
+          <Name>Set_Level</Name>
+          <Identifier>11b13366-28af-4bd6-949f-e4fa1effc33c</Identifier>
+          <Description />
+          <Parameters>
+            <Operation_Parameter>
+              <Name>level</Name>
+              <Identifier>5869714e-c301-47cf-aff4-01d6f875b6f4</Identifier>
+              <Description>Requested level of the output pin.</Description>
+              <Referenced_Type_Id>f9c149ee-c3eb-4b3d-b2f0-e7b6f5cdcb26</Referenced_Type_Id>
+              <Direction>INPUT</Direction>
+            </Operation_Parameter>
+          </Parameters>
+        </Client_Server_Operation>
+      </Operations>
+    </Client_Server_Interface>
+    <Client_Server_Interface>
+      <Name>Discrete_Input</Name>
+      <Identifier>d8db64e8-9547-4b4b-ab10-ce3984553d49</Identifier>
+      <Description>Gathers operations allowing to manage a digital hardware input.</Description>
+      <Operations>
+        <Client_Server_Operation>
+          <Name>Get_Level</Name>
+          <Identifier>2469ec59-0606-4cb1-9940-f0c7881b0992</Identifier>
+          <Description />
+          <Parameters>
+            <Operation_Parameter>
+              <Name>level</Name>
+              <Identifier>c00cae3e-e966-49c0-a354-58af667dbee1</Identifier>
+              <Description />
+              <Referenced_Type_Id>f9c149ee-c3eb-4b3d-b2f0-e7b6f5cdcb26</Referenced_Type_Id>
+              <Direction>OUTPUT</Direction>
+            </Operation_Parameter>
+          </Parameters>
+        </Client_Server_Operation>
+      </Operations>
+    </Client_Server_Interface>
+    <Client_Server_Interface>
+      <Name>Analogic_Input_5</Name>
+      <Identifier>e189a1cf-5f0f-453f-8f13-6e83bd913b04</Identifier>
+      <Description>Gathers operations allowing to manage an analogical hardware input from 0 to 5 volt.</Description>
+      <Operations>
+        <Client_Server_Operation>
+          <Name>Get_Voltage</Name>
+          <Identifier>fac34c05-3e20-4fe1-ae12-a62af7528558</Identifier>
+          <Description />
+          <Parameters>
+            <Operation_Parameter>
+              <Name>voltage</Name>
+              <Identifier>87ac4ce6-c9f0-4a0f-9c4c-a52d83163052</Identifier>
+              <Description />
+              <Referenced_Type_Id>cee64fb2-4c18-4727-aeba-94f2cb1de1cf</Referenced_Type_Id>
+              <Direction>OUTPUT</Direction>
+            </Operation_Parameter>
+          </Parameters>
+        </Client_Server_Operation>
+      </Operations>
+    </Client_Server_Interface>
+  </Interfaces>
+  <Component_Types />
+  <Compositions />
+</Top_Level_Package>

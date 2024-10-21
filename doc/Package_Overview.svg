@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><svg  Version="1.1"  xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink"  xmlns:svg="http://www.w3.org/2000/svg"  width="881px" height="345px">  <style>text{font-size:12px;font-family:Consolas;fill:gray;text-anchor:start;}</style>  <style>svg { background-Color: black; color: white;}</style>
+  <defs>
+  <g id="6e26c190-3b37-4812-8adb-7e48c6248d4d_alt">
+  <defs>
+  <g id="cee64fb2-4c18-4727-aeba-94f2cb1de1cf">
+  <rect x="0px" y="0px" width="230px" height="35px"
+    style="fill:rgb(136,0,21);fill-opacity:0.3;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="115px" y="13px">&lt;&lt;Fixed_Point_Type&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;" x="115px" y="28px">T_Pin_Voltage_5</text>
+  <rect x="0px" y="35px" width="230px" height="95px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Allows to model a data</text>
+  <text style="font-size:12px;" x="10px" y="63px">representing a voltage with a</text>
+  <text style="font-size:12px;" x="10px" y="78px">resolution of 5/1024 (0.004887)</text>
+  <text style="font-size:12px;" x="10px" y="93px">volt. </text>
+  <text style="font-size:12px;" x="10px" y="108px">(Typically used to represent a</text>
+  <text style="font-size:12px;" x="10px" y="123px">data from 0 to 5 V.)</text>
+  <rect x="0px" y="130px" width="230px" height="65px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="143px">Base : uint16</text>
+  <text style="font-size:12px;" x="10px" y="158px">Unit : V</text>
+  <text style="font-size:12px;" x="10px" y="173px">Resolution : 5/1024</text>
+  <text style="font-size:12px;" x="10px" y="188px">Offset : 0</text>
+  </g>
+  </defs>
+  <use xlink:href="#cee64fb2-4c18-4727-aeba-94f2cb1de1cf" transform="translate(0,0)" />
+  <defs>
+  <g id="f9c149ee-c3eb-4b3d-b2f0-e7b6f5cdcb26">
+  <rect x="0px" y="0px" width="230px" height="35px"
+    style="fill:rgb(136,0,21);fill-opacity:0.3;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="115px" y="13px">&lt;&lt;Enumerated_Type&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;" x="115px" y="28px">E_IO_Level</text>
+  <rect x="0px" y="35px" width="230px" height="50px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Allows to model a data that</text>
+  <text style="font-size:12px;" x="10px" y="63px">represents the hardware level of</text>
+  <text style="font-size:12px;" x="10px" y="78px"> a pin.</text>
+  <rect x="0px" y="85px" width="230px" height="35px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="98px">IO_LEVEL_HIGH</text>
+  <text style="font-size:12px;" x="10px" y="113px">IO_LEVEL_LOW</text>
+  </g>
+  </defs>
+  <use xlink:href="#f9c149ee-c3eb-4b3d-b2f0-e7b6f5cdcb26" transform="translate(250,0)" />
+  <defs>
+  <g id="a330e264-839e-477e-840a-14fe8bf973d1">
+  <rect x="0px" y="0px" width="243px" height="35px"
+    style="fill:rgb(34,177,76);fill-opacity:0.3;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="121px" y="13px">&lt;&lt;Client_Server_Interface&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;font-style:italic;" x="121px" y="28px">Discrete_Output</text>
+  <rect x="0px" y="35px" width="243px" height="35px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Gathers operations allowing to</text>
+  <text style="font-size:12px;" x="10px" y="63px">manage a digital hardware output.</text>
+  <rect x="0px" y="70px" width="243px" height="20px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="83px">+ Set_Level( IN level:E_IO_Level )</text>
+  </g>
+  </defs>
+  <use xlink:href="#a330e264-839e-477e-840a-14fe8bf973d1" transform="translate(0,215)" />
+  <defs>
+  <g id="d8db64e8-9547-4b4b-ab10-ce3984553d49">
+  <rect x="0px" y="0px" width="250px" height="35px"
+    style="fill:rgb(34,177,76);fill-opacity:0.3;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="125px" y="13px">&lt;&lt;Client_Server_Interface&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;font-style:italic;" x="125px" y="28px">Discrete_Input</text>
+  <rect x="0px" y="35px" width="250px" height="35px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Gathers operations allowing to</text>
+  <text style="font-size:12px;" x="10px" y="63px">manage a digital hardware input.</text>
+  <rect x="0px" y="70px" width="250px" height="20px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="83px">+ Get_Level( OUT level:E_IO_Level )</text>
+  </g>
+  </defs>
+  <use xlink:href="#d8db64e8-9547-4b4b-ab10-ce3984553d49" transform="translate(263,215)" />
+  <defs>
+  <g id="e189a1cf-5f0f-453f-8f13-6e83bd913b04">
+  <rect x="0px" y="0px" width="308px" height="35px"
+    style="fill:rgb(34,177,76);fill-opacity:0.3;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="154px" y="13px">&lt;&lt;Client_Server_Interface&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;font-style:italic;" x="154px" y="28px">Analogic_Input_5</text>
+  <rect x="0px" y="35px" width="308px" height="35px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Gathers operations allowing to manage an</text>
+  <text style="font-size:12px;" x="10px" y="63px">analogical hardware input from 0 to 5 volt.</text>
+  <rect x="0px" y="70px" width="308px" height="20px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="83px">+ Get_Voltage( OUT voltage:T_Pin_Voltage_5 )</text>
+  </g>
+  </defs>
+  <use xlink:href="#e189a1cf-5f0f-453f-8f13-6e83bd913b04" transform="translate(533,215)" />
+  </g>
+  </defs>
+
+  <use xlink:href="#6e26c190-3b37-4812-8adb-7e48c6248d4d_alt" transform="translate(20,20)" />
+</svg>

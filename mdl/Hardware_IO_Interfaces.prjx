@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Software_Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Hardware_IO_Interfaces</Name>
+  <Identifier>2686b94c-5f44-48a1-8197-f1fc2862ed5b</Identifier>
+  <Description />
+  <Packages_References>
+    <Package_Reference>
+      <Last_Known_Name>Hardware_IO_Interfaces</Last_Known_Name>
+      <Relative_Path>Hardware_IO_Interfaces .pkgx</Relative_Path>
+      <Is_Writable>true</Is_Writable>
+    </Package_Reference>
+  </Packages_References>
+</Software_Project>
