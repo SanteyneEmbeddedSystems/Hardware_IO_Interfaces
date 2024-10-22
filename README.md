@@ -6,13 +6,13 @@ input and output pins of an hardware device.
 ## Content
 
 The Hardware_IO_Interfaces package gathers :
-* Data_Types :
-  * T_Voltage_5
+* Types :
+  * T_Pin_Voltage_5
   * E_IO_Level
-* Client_Server_Interface :
-  * Analogic_Input_5
-  * Discrete_Input
-  * Discrete_Output
+* Client_Server_Interfaces :
+  * Analog_Input_5
+  * Digital_Input
+  * Digital_Output
   
 ## Overview
 

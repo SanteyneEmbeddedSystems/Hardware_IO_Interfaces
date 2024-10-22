@@ -18,7 +18,7 @@
     <Enumerated_Type>
       <Name>E_IO_Level</Name>
       <Identifier>f9c149ee-c3eb-4b3d-b2f0-e7b6f5cdcb26</Identifier>
-      <Description>Allows to model a data that represents the hardware level of a pin.</Description>
+      <Description>Allows to model a data that represents the electrical level of a pin.</Description>
       <Enumerals>
         <Enumeral>
           <Name>IO_LEVEL_HIGH</Name>
@@ -35,14 +35,14 @@
   </Types>
   <Interfaces>
     <Client_Server_Interface>
-      <Name>Discrete_Output</Name>
+      <Name>Digital_Output</Name>
       <Identifier>a330e264-839e-477e-840a-14fe8bf973d1</Identifier>
       <Description>Gathers operations allowing to manage a digital hardware output.</Description>
       <Operations>
         <Client_Server_Operation>
           <Name>Set_Level</Name>
           <Identifier>11b13366-28af-4bd6-949f-e4fa1effc33c</Identifier>
-          <Description />
+          <Description>Allows to set the level of a digital pin.</Description>
           <Parameters>
             <Operation_Parameter>
               <Name>level</Name>
@@ -56,19 +56,19 @@
       </Operations>
     </Client_Server_Interface>
     <Client_Server_Interface>
-      <Name>Discrete_Input</Name>
+      <Name>Digital_Input</Name>
       <Identifier>d8db64e8-9547-4b4b-ab10-ce3984553d49</Identifier>
       <Description>Gathers operations allowing to manage a digital hardware input.</Description>
       <Operations>
         <Client_Server_Operation>
           <Name>Get_Level</Name>
           <Identifier>2469ec59-0606-4cb1-9940-f0c7881b0992</Identifier>
-          <Description />
+          <Description>Alows to get the electrical  level of an input pin.</Description>
           <Parameters>
             <Operation_Parameter>
               <Name>level</Name>
               <Identifier>c00cae3e-e966-49c0-a354-58af667dbee1</Identifier>
-              <Description />
+              <Description>Read level of the input pin.</Description>
               <Referenced_Type_Id>f9c149ee-c3eb-4b3d-b2f0-e7b6f5cdcb26</Referenced_Type_Id>
               <Direction>OUTPUT</Direction>
             </Operation_Parameter>
@@ -77,19 +77,19 @@
       </Operations>
     </Client_Server_Interface>
     <Client_Server_Interface>
-      <Name>Analogic_Input_5</Name>
+      <Name>Analog_Input_5</Name>
       <Identifier>e189a1cf-5f0f-453f-8f13-6e83bd913b04</Identifier>
-      <Description>Gathers operations allowing to manage an analogical hardware input from 0 to 5 volt.</Description>
+      <Description>Gathers operations allowing to manage an analog hardware input from 0 to 5 volt.</Description>
       <Operations>
         <Client_Server_Operation>
           <Name>Get_Voltage</Name>
           <Identifier>fac34c05-3e20-4fe1-ae12-a62af7528558</Identifier>
-          <Description />
+          <Description>Alows to get the voltage of an input pin.</Description>
           <Parameters>
             <Operation_Parameter>
               <Name>voltage</Name>
               <Identifier>87ac4ce6-c9f0-4a0f-9c4c-a52d83163052</Identifier>
-              <Description />
+              <Description>Read voltage of the input pin.</Description>
               <Referenced_Type_Id>cee64fb2-4c18-4727-aeba-94f2cb1de1cf</Referenced_Type_Id>
               <Direction>OUTPUT</Direction>
             </Operation_Parameter>
