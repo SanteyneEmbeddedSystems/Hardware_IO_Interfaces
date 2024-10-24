@@ -6,7 +6,7 @@
   <Packages_References>
     <Package_Reference>
       <Last_Known_Name>Hardware_IO_Interfaces</Last_Known_Name>
-      <Relative_Path>Hardware_IO_Interfaces .pkgx</Relative_Path>
+      <Relative_Path>Hardware_IO_Interfaces.pkgx</Relative_Path>
       <Is_Writable>true</Is_Writable>
     </Package_Reference>
   </Packages_References>
